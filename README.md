@@ -15,7 +15,7 @@ program.
 Installation
 ------------
 Edit `config.mk` to match your local setup (gaufre is installed into the
-/usr/local namespace by default).
+`/usr/local` namespace by default).
 
 Edit `config.h` (copy `config.def.h` if you don't know what to do) to
 customize the software to suit your needs. Yes, I'm too lazy to make a
@@ -34,6 +34,13 @@ Use it with the following syntax
     gaufre HOST[:PORT}
 
 Type `help` during your session if you are lost.
+
+
+TODO
+----
+
+- Refactor the `link` function (amongst other things)
+- Add caching support (maybe)
 
 
 Credits
